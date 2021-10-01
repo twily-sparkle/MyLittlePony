@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Sansita Regular';
+    src: local("Sansita Regular"),
+    url("../../Fontes/Sansita/Sansita-Regular.ttf"),
+    url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+}
+
+@font-face {
+    font-family: 'Itim Regular';
+    src: format("Itim Regular"),
+    url("../../Fontes/Itim/Itim-Regular.ttf"),
+    url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+}
+
+@font-face {
+    font-family: 'Sansita Bold';
+    src: local("Sansita Bold"),
+    url("../../Fontes/Sansita/Sansita-Bold.ttf"),
+    url('https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap');
+}
+
+@font-face {
+    font-family: 'Sansita Italic';
+    src: format("Sansita Italic"),
+    url("../../Fontes/Sansita/Sansita-Italic.ttf"),
+    url('https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap');
+}
+
+/* menu */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3B195C;
+    border-bottom: 5px solid #44B7D2;
+    margin-bottom: 15px;
+}
+
+.logo-alt{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.menu li{
+    margin:15px;
+    padding: 15px;
+    background-color: #EC1394;
+    border-radius: 10px;
+    font-family: 'Sansita Regular', sans-serif;
+}
+.menu .atual{
+    background-color:#44B7D2;
+}
+.menu li:hover{
+    background-color: #44B7D2;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+/*menu */
+
+main{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:25px;
+
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao a{
+    text-decoration: none;
+    background-color: #EC1394;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Sansita Regular', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.botao a:hover{
+    background-color: #44B7D2;
+}
+
+
+.titulo{
+    font-family: 'Sansita Regular', sans-serif;
+    color:#EC1394;
+    font-size: 45px;
+}
+
+.paragrafo{
+    font-family: 'Itim Regular', cursive;
+    font-size: 25px;
+}
+
+/*rodape*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: #3B195C;
+    border-top: 5px solid #44B7D2;
+}
+
+.redes-sociais{
+    display: flex;
+    list-style: none;
+
+}
+
+.redes-sociais li{
+    margin: 15px;
+}
+
+/* rodape */
